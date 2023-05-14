@@ -22,6 +22,7 @@ img{
 
 header{
     background-size: 100%;
+    background-position-x: center;
     background-repeat: no-repeat;
     background-image: url(/img/IMAGE\ \(27\).png);
 }
