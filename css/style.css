@@ -26,10 +26,7 @@ header{
     background-repeat: no-repeat;
     background-image: url(/img/IMAGE\ \(27\).png);
 }
-.header-list{
-    display: flex;
-    justify-content: space-around;
-}
+
 nav{
     padding: 20px 0;
 }
@@ -89,14 +86,40 @@ nav .container{
     line-height: 20px;
     color: #fff;
 }
+.header-list{
+    margin: 22px 0;
+    display: flex;
+    justify-content: space-around;
+}
 
-
+.featured-posts{
+    margin-top: 60px;
+    /* text-align: center; */
+}
+.featured-posts h2{
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Oxygen';
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.h2line{
+    margin: 0 auto;
+    margin-top: 16px;
+    margin-bottom: 23px;
+    width: 188px;
+    height: 1px;
+    background-color: #DEDEDE;
+}
 .adventure{
     display: flex;
     justify-content: space-between;
 }
 
 .road-ahead{
+    padding: 20px;
     display: flex;
     align-items: end;
     width: 460px;
@@ -104,16 +127,20 @@ nav .container{
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(/img/IMAGE\ \(28\).png);
+    border-radius: 4px;
 }
 .road-text h3{
+    margin-bottom: 6px;
     color: #fff;
 }
 .road-text p{
+    margin-bottom: 17px;
     color: #FFFFFFB2;
 }
 .mat{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .mat-profile{
     display: flex;
@@ -125,6 +152,7 @@ nav .container{
 
 
 .top-down{
+    padding: 20px;
     display: flex;
     align-items: end;
     width: 460px;
@@ -132,13 +160,21 @@ nav .container{
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(/img/IMAGE\ \(29\).png);
+    border-radius: 4px;
 }
 
-
-
+.top-text h3{
+    margin-bottom: 6px;
+    color: #fff;
+}
+.top-text p{
+    margin-bottom: 17px;
+    color: #DEDEDE;
+}
 .will{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .will-profile{
     display: flex;
