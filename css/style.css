@@ -11,3 +11,9 @@ a{
 img{
     width: 100%;
 }
+
+
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
