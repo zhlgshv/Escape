@@ -26,6 +26,10 @@ header{
     background-repeat: no-repeat;
     background-image: url(/img/IMAGE\ \(27\).png);
 }
+.header-list{
+    display: flex;
+    justify-content: space-around;
+}
 nav{
     padding: 20px 0;
 }
@@ -88,13 +92,27 @@ nav .container{
 
 
 
-
-
-
-.header-list{
-    display: flex;
-    justify-content: space-around;
+.road-ahead{
+    width: 460px;
+    height: 280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/img/IMAGE\ \(28\).png);
 }
+
+
+
+.mat{
+    display: flex;
+    align-items: center;
+}
+.mat-profile{
+    display: flex;
+    align-items: center;
+}
+
+
+
 
 
 @media (max-width: 960px){
