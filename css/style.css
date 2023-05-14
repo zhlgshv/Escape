@@ -21,7 +21,7 @@ img{
 }
 
 header{
-    background-size: 100%;
+    background-size: cover;
     background-position-x: center;
     background-repeat: no-repeat;
     background-image: url(/img/IMAGE\ \(27\).png);
@@ -131,23 +131,8 @@ nav .container{
         display: flex;
         justify-content: center;
     }
-    .together{
-        color: black;
-    }
     .nav-list{
         display: none;
-    }
-    .together{
-        padding: 50px 0;
-        text-align: center;
-        color: #fff;
-    }
-    .together  h2{
-        font-family: 'Lora', serif;
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 51px;
-        letter-spacing: 2px;
     }
 }
 
