@@ -18,6 +18,31 @@ img{
     margin: 0 auto;
 }
 
+header{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(/img/IMAGE\ \(27\).png);
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color: #fff;
+}
+.nav-list{
+    display: flex;
+}
+.nav-link{
+    margin: 0 15px;
+    color: #fff;
+}
+
+
+
+
+
 
 
 
