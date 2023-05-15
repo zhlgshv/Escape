@@ -142,9 +142,13 @@ nav .container{
     align-items: center;
     justify-content: space-between;
 }
+.mat p{
+    margin: 0;
+}
 .mat-profile{
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 .mat-profile img{
     width: 26px;
@@ -176,9 +180,13 @@ nav .container{
     align-items: center;
     justify-content: space-between;
 }
+.will p{
+    margin: 0;
+}
 .will-profile{
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 .will-profile img{
     width: 26px;
@@ -190,11 +198,32 @@ nav .container{
     .container{
         width: 840px;
     }
+
+    .adventure{
+        flex-direction: column;
+    }
+    .road-ahead{
+        width: 800px;
+        margin: 0 auto;
+    }
+    .top-down{
+        width: 800px;
+        margin: 20px auto;
+    }
+
 }
 
 @media (max-width: 860px){
     .container{
         width: 740px;
+    }
+    .road-ahead{
+        width: 700px;
+        margin: 0 auto;
+    }
+    .top-down{
+        width: 700px;
+        margin: 20px auto;
     }
 }
 
@@ -202,11 +231,27 @@ nav .container{
     .container{
         width: 640px;
     }
+    .road-ahead{
+        width: 600px;
+        margin: 0 auto;
+    }
+    .top-down{
+        width: 600px;
+        margin: 20px auto;
+    }
 }
 
 @media (max-width: 660px){
     .container{
         width: 540px;
+    }
+    .road-ahead{
+        width: 500px;
+        margin: 0 auto;
+    }
+    .top-down{
+        width: 500px;
+        margin: 20px auto;
     }
 }
 
@@ -240,6 +285,16 @@ nav .container{
         width: 30%;
         text-align: center;
     }
+
+
+    .road-ahead{
+        width: 400px;
+        margin: 0 auto;
+    }
+    .top-down{
+        width: 400px;
+        margin: 20px auto;
+    }
 }
 
 @media (max-width: 460px){
@@ -247,7 +302,14 @@ nav .container{
         width: 340px;
     }
 
-
+    .road-ahead{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .top-down{
+        width: 300px;
+        margin: 20px auto;
+    }
     
 }
 
@@ -258,5 +320,17 @@ nav .container{
 
     .header-item{
         width: 50%;
+    }
+
+    .mat{
+        flex-direction: column;
+    }
+    .road-ahead{
+        width: 200px;
+        margin: 0 auto;
+    }
+    .top-down{
+        width: 200px;
+        margin: 20px auto;
     }
 }
