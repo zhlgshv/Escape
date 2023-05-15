@@ -461,10 +461,13 @@ footer{
     .contact{
         flex-direction: column;
     }
-    .enter{
+    .contact input{
         width: 100%;
+        border-radius: 3px 3px 0 0;
     }
-    .submit{
+
+    .contact button{
+        border-radius: 0 0 3px 3px;
         width: 100%;
     }
 }
