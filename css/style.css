@@ -229,6 +229,7 @@ footer{
     background-image: url(/img/IMAGE\ \(31\).png);
 }
 .stay-in{
+    text-align: center;
     padding-top: 81px;
 }
 .stay-in h2{
@@ -240,6 +241,23 @@ footer{
     letter-spacing: 2px;
     font-weight: 400;
     color: #fff;
+}
+
+
+.contact input{
+    width: 375px;
+    border: none;
+    outline: none;
+    padding: 18px 35px;
+    border-radius: 3px 0 0 3px;
+}
+.contact button{
+    margin-left: -5px;
+    padding: 18px 43px;
+    border: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 0 3px 3px 0;
 }
 
 
@@ -261,7 +279,6 @@ footer{
     gap: 20px;
 }
 .footer-link{
-    /* margin: 0 10px; */
     color: #fff;
 }
 
@@ -370,6 +387,7 @@ footer{
         width: 100%;
         margin: 20px auto;
     }
+    
 }
 
 @media (max-width: 460px){
