@@ -128,6 +128,7 @@ nav .container{
 }
 
 .road-ahead{
+    cursor: pointer;
     padding: 20px;
     display: flex;
     align-items: end;
@@ -137,6 +138,11 @@ nav .container{
     background-repeat: no-repeat;
     background-image: url(/img/IMAGE\ \(28\).png);
     border-radius: 4px;
+    transition: .5s;
+}
+.road-ahead:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    transform: scale(1.005);
 }
 .road-text h3{
     margin-bottom: 6px;
@@ -167,6 +173,7 @@ nav .container{
 
 
 .top-down{
+    cursor: pointer;
     padding: 20px;
     display: flex;
     align-items: end;
@@ -176,8 +183,12 @@ nav .container{
     background-repeat: no-repeat;
     background-image: url(/img/IMAGE\ \(29\).png);
     border-radius: 4px;
+    transition: .5s;
 }
-
+.top-down:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    transform: scale(1.005);
+}
 .top-text h3{
     margin-bottom: 6px;
     color: #fff;
@@ -226,8 +237,18 @@ nav .container{
     gap: 25px;
 }
 .post{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius: 3px;
     width: 30%;
     background-color: #fff;
+    transition: .5s;
+}
+.post:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    transform: scale(1.005);
 }
 .post-text{
     margin: 13px;
