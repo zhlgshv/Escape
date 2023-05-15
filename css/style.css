@@ -113,6 +113,11 @@ nav .container{
     width: 188px;
     height: 1px;
     background-color: #DEDEDE;
+    transform: scaleX(0);
+    transition: .5s;
+}
+.fp-title:hover .h2line{
+    transform: scaleX(1);
 }
 .adventure{
     display: flex;
