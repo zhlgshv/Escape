@@ -222,10 +222,16 @@ nav .container{
 
 
 footer{
-    
+    margin-top: 108px;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/img/IMAGE\ \(31\).png);
+}
+.stay-in{
+    padding-top: 81px;
 }
 .stay-in h2{
-    margin-top: 67px;
     cursor: pointer;
     text-align: center;
     font-family: 'Oxygen';
@@ -233,6 +239,14 @@ footer{
     line-height: 27px;
     letter-spacing: 2px;
     font-weight: 400;
+    color: #fff;
+}
+
+
+
+.footer-menu{
+    margin-top: 90px;
+    background: rgba(35, 47, 56, 0.6);
 }
 
 
