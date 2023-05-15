@@ -19,7 +19,9 @@ img{
     width: 940px;
     margin: 0 auto;
 }
-
+main{
+    background-color: #F7F7F7;
+}
 header{
     background-size: cover;
     background-position-x: center;
@@ -93,8 +95,7 @@ nav .container{
 }
 
 .featured-posts{
-    margin-top: 60px;
-    /* text-align: center; */
+    padding-top: 60px;
 }
 .featured-posts h2{
     cursor: pointer;
@@ -193,8 +194,26 @@ nav .container{
 }
 
 
-
-
+.most-recent h2{
+    margin-top: 67px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Oxygen';
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.post{
+    width: 30%;
+    background-color: #fff;
+}
 
 
 @media (max-width: 960px){
@@ -206,11 +225,11 @@ nav .container{
         flex-direction: column;
     }
     .road-ahead{
-        width: 800px;
+        width: 100%;
         margin: 0 auto;
     }
     .top-down{
-        width: 800px;
+        width: 100%;
         margin: 20px auto;
     }
 
@@ -221,11 +240,11 @@ nav .container{
         width: 740px;
     }
     .road-ahead{
-        width: 700px;
+        width: 100%;
         margin: 0 auto;
     }
     .top-down{
-        width: 700px;
+        width: 100%;
         margin: 20px auto;
     }
 }
@@ -235,12 +254,16 @@ nav .container{
         width: 640px;
     }
     .road-ahead{
-        width: 600px;
+        width: 100%;
         margin: 0 auto;
     }
     .top-down{
-        width: 600px;
+        width: 100%;
         margin: 20px auto;
+    }
+
+    .post{
+        width: 45%;
     }
 }
 
@@ -249,11 +272,11 @@ nav .container{
         width: 540px;
     }
     .road-ahead{
-        width: 500px;
+        width: 100%;
         margin: 0 auto;
     }
     .top-down{
-        width: 500px;
+        width: 100%;
         margin: 20px auto;
     }
 }
@@ -291,11 +314,11 @@ nav .container{
 
 
     .road-ahead{
-        width: 400px;
+        width: 100%;
         margin: 0 auto;
     }
     .top-down{
-        width: 400px;
+        width: 100%;
         margin: 20px auto;
     }
 }
@@ -314,6 +337,10 @@ nav .container{
         margin: 20px auto;
     }
     
+
+    .post{
+        width: 100%;
+    }
 }
 
 @media (max-width: 360px){
@@ -324,16 +351,30 @@ nav .container{
     .header-item{
         width: 50%;
     }
-
+    .post-text{
+        text-align: center;
+    }
     .mat{
         flex-direction: column;
     }
+    .will{
+        flex-direction: column;
+    }
+    .dt{
+        display: none;
+    }
     .road-ahead{
-        width: 200px;
+        width: 100%;
         margin: 0 auto;
     }
     .top-down{
-        width: 200px;
+        width: 100%;
         margin: 20px auto;
+    }
+    .road-text{
+        text-align: center;
+    }
+    .top-text{
+        text-align: center;
     }
 }
