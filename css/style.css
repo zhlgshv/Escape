@@ -248,8 +248,22 @@ footer{
     margin-top: 90px;
     background: rgba(35, 47, 56, 0.6);
 }
-
-
+.footer-menu .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-title{
+    color: #fff;
+}
+.footer-list{
+    display: flex;
+    gap: 20px;
+}
+.footer-link{
+    /* margin: 0 10px; */
+    color: #fff;
+}
 
 @media (max-width: 960px){
     .container{
