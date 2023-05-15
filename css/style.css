@@ -243,16 +243,17 @@ footer{
     color: #fff;
 }
 
-
+.contact{
+    display: flex;
+    justify-content: center;
+}
 .contact input{
-    width: 375px;
     border: none;
     outline: none;
     padding: 18px 35px;
     border-radius: 3px 0 0 3px;
 }
 .contact button{
-    margin-left: -5px;
     padding: 18px 43px;
     border: none;
     color: #fff;
@@ -388,6 +389,18 @@ footer{
         margin: 20px auto;
     }
     
+
+
+
+
+
+    .footer-menu .container{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-list{
+        display: none;
+    }
 }
 
 @media (max-width: 460px){
@@ -443,5 +456,15 @@ footer{
     }
     .top-text{
         text-align: center;
+    }
+
+    .contact{
+        flex-direction: column;
+    }
+    .enter{
+        width: 100%;
+    }
+    .submit{
+        width: 100%;
     }
 }
