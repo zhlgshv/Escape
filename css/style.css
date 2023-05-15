@@ -221,8 +221,19 @@ nav .container{
 }
 
 
-
-
+footer{
+    
+}
+.stay-in h2{
+    margin-top: 67px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Oxygen';
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
 
 
 
